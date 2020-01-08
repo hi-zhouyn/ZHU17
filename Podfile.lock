@@ -1,0 +1,50 @@
+PODS:
+  - Alamofire (4.8.2)
+  - EmptyDataSet-Swift (4.2.0)
+  - HandyJSON (5.0.0)
+  - IQKeyboardManagerSwift (6.4.1)
+  - Kingfisher (4.10.1)
+  - Moya (13.0.1):
+    - Moya/Core (= 13.0.1)
+  - Moya/Core (13.0.1):
+    - Alamofire (~> 4.1)
+    - Result (~> 4.1)
+  - Result (4.1.0)
+  - Reusable (4.1.0):
+    - Reusable/Storyboard (= 4.1.0)
+    - Reusable/View (= 4.1.0)
+  - Reusable/Storyboard (4.1.0)
+  - Reusable/View (4.1.0)
+  - SnapKit (4.2.0)
+  - SwiftMessages (4.1.4):
+    - SwiftMessages/App (= 4.1.4)
+  - SwiftMessages/App (4.1.4)
+  - Then (2.5.0)
+
+DEPENDENCIES:
+  - EmptyDataSet-Swift
+  - HandyJSON
+  - IQKeyboardManagerSwift
+  - Kingfisher
+  - Moya
+  - Reusable
+  - SnapKit (= 4.2)
+  - SwiftMessages
+  - Then
+
+SPEC CHECKSUMS:
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  EmptyDataSet-Swift: 1fa0b35f530a35f852ecb2b53564728b0c300aaf
+  HandyJSON: 992f2d661716d6a91de82d0056927bc7813b5770
+  IQKeyboardManagerSwift: d2df660d0b8d64a15cb2537c9ff303213fa515b2
+  Kingfisher: c148cd7b47ebde9989f6bc7c27dcaa79d81279a0
+  Moya: f4a4b80ff2f8a4ffc208dfb31cd91636622fee6e
+  Result: bd966fac789cc6c1563440b348ab2598cc24d5c7
+  Reusable: 82be188f29d96dc5eff0db7b2393bcc08d2cdd5b
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+  SwiftMessages: 2c33fdee8b8f38dfc7e1036684456b505891da8c
+  Then: 0157115e883545c77967b452fe74a1d25fb796e1
+
+PODFILE CHECKSUM: 9e496ef00d0ce8dacca0a0bd0e4a7ddfb109af67
+
+COCOAPODS: 1.4.0
