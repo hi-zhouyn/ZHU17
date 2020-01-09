@@ -9,5 +9,4 @@ pod 'Kingfisher'
 pod 'IQKeyboardManagerSwift'
 pod 'EmptyDataSet-Swift'
 pod 'Reusable'
-pod 'SwiftMessages'
 end

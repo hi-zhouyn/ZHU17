@@ -16,9 +16,6 @@ PODS:
   - Reusable/Storyboard (4.1.0)
   - Reusable/View (4.1.0)
   - SnapKit (4.2.0)
-  - SwiftMessages (4.1.4):
-    - SwiftMessages/App (= 4.1.4)
-  - SwiftMessages/App (4.1.4)
   - Then (2.5.0)
 
 DEPENDENCIES:
@@ -29,7 +26,6 @@ DEPENDENCIES:
   - Moya
   - Reusable
   - SnapKit (= 4.2)
-  - SwiftMessages
   - Then
 
 SPEC CHECKSUMS:
@@ -42,9 +38,8 @@ SPEC CHECKSUMS:
   Result: bd966fac789cc6c1563440b348ab2598cc24d5c7
   Reusable: 82be188f29d96dc5eff0db7b2393bcc08d2cdd5b
   SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
-  SwiftMessages: 2c33fdee8b8f38dfc7e1036684456b505891da8c
   Then: 0157115e883545c77967b452fe74a1d25fb796e1
 
-PODFILE CHECKSUM: 9e496ef00d0ce8dacca0a0bd0e4a7ddfb109af67
+PODFILE CHECKSUM: 9d5532ffd9df6b042c8c66126f90b46f30cba223
 
 COCOAPODS: 1.4.0
