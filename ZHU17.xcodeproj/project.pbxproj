@@ -95,6 +95,7 @@
 		50C0E0B123C7041300BBE6A8 /* SGPageContentScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C0E0AC23C7041300BBE6A8 /* SGPageContentScrollView.swift */; };
 		50C0E0B323C7061100BBE6A8 /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C0E0B223C7061100BBE6A8 /* BaseNavigationController.swift */; };
 		50C0E0B523C70E0A00BBE6A8 /* ZHUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C0E0B423C70E0A00BBE6A8 /* ZHUtil.swift */; };
+		50C0E0B723C853CD00BBE6A8 /* ZHAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50C0E0B623C853CD00BBE6A8 /* ZHAPI.swift */; };
 		BE6C111F89A4631BC1859530 /* Pods_ZHU17.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CD1E18F2AADDF5F243DFED6 /* Pods_ZHU17.framework */; };
 /* End PBXBuildFile section */
 
@@ -210,6 +211,7 @@
 		50C0E0AC23C7041300BBE6A8 /* SGPageContentScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SGPageContentScrollView.swift; sourceTree = "<group>"; };
 		50C0E0B223C7061100BBE6A8 /* BaseNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
 		50C0E0B423C70E0A00BBE6A8 /* ZHUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZHUtil.swift; sourceTree = "<group>"; };
+		50C0E0B623C853CD00BBE6A8 /* ZHAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZHAPI.swift; sourceTree = "<group>"; };
 		58B91871D5278938375C4637 /* Pods-ZHU17.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZHU17.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZHU17/Pods-ZHU17.debug.xcconfig"; sourceTree = "<group>"; };
 		700EB380A416F77967405532 /* Pods-ZHU17.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZHU17.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZHU17/Pods-ZHU17.release.xcconfig"; sourceTree = "<group>"; };
 		8CD1E18F2AADDF5F243DFED6 /* Pods_ZHU17.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZHU17.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -350,6 +352,7 @@
 		50C0DFFC23C6CF3000BBE6A8 /* Macro */ = {
 			isa = PBXGroup;
 			children = (
+				50C0E0B623C853CD00BBE6A8 /* ZHAPI.swift */,
 			);
 			path = Macro;
 			sourceTree = "<group>";
@@ -848,6 +851,7 @@
 				50C0E0B523C70E0A00BBE6A8 /* ZHUtil.swift in Sources */,
 				50C0E08523C6F99C00BBE6A8 /* UILabelExtensions.swift in Sources */,
 				50C0E08423C6F99C00BBE6A8 /* UIWindowExtensions.swift in Sources */,
+				50C0E0B723C853CD00BBE6A8 /* ZHAPI.swift in Sources */,
 				50C0E08F23C6F99C00BBE6A8 /* SignedIntegerExtensions.swift in Sources */,
 				50C0E09823C6F99C00BBE6A8 /* MutableCollectionExtensions.swift in Sources */,
 				50C0E07823C6F99C00BBE6A8 /* UIBarButtonItemExtensions.swift in Sources */,

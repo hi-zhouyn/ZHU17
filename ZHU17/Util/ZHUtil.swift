@@ -15,7 +15,7 @@ let KScreenHeight = UIScreen.main.bounds.height
 
 //MARK:颜色定义
 extension UIColor {
-    class var theme: UIColor {
+    class var main: UIColor {
         return UIColor(hexString: "50D1AD")!
     }
     class var background: UIColor {

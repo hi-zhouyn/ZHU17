@@ -38,7 +38,7 @@ class ZHTabBarViewController: UITabBarController {
         controller.tabBarItem.image = image?.withRenderingMode(UIImage.RenderingMode.alwaysOriginal)
         controller.tabBarItem.selectedImage = selectedImage?.withRenderingMode(.alwaysOriginal)
         controller.tabBarItem!.setTitleTextAttributes([NSAttributedString.Key.foregroundColor: UIColor.lightGray], for: UIControl.State())
-        controller.tabBarItem!.setTitleTextAttributes([NSAttributedString.Key.foregroundColor: UIColor.theme], for: .selected)
+        controller.tabBarItem!.setTitleTextAttributes([NSAttributedString.Key.foregroundColor: UIColor.main], for: .selected)
         addChild(BaseNavigationController(rootViewController: controller))
     }
     

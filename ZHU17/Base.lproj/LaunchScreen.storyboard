@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
-    <device id="retina6_1" orientation="portrait">
+    <device id="retina5_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -18,9 +18,38 @@
                         <viewControllerLayoutGuide type="bottom" id="1Ao-4w-a0a"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logoicon" translatesAutoresizingMaskIntoConstraints="NO" id="TJN-QJ-lDq">
+                                <rect key="frame" x="177" y="188" width="60" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="60" id="dcw-EY-CA7"/>
+                                    <constraint firstAttribute="height" constant="60" id="tzO-5B-p8s"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="有妖气漫画" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nqW-S4-CxG">
+                                <rect key="frame" x="168.66666666666666" y="263" width="76.666666666666657" height="18"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="@2020 U17" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CW4-3y-dM3">
+                                <rect key="frame" x="169.66666666666666" y="704" width="75" height="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="nqW-S4-CxG" firstAttribute="top" secondItem="TJN-QJ-lDq" secondAttribute="bottom" constant="15" id="308-kw-z8c"/>
+                            <constraint firstItem="TJN-QJ-lDq" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="IU9-XQ-Jyc"/>
+                            <constraint firstItem="CW4-3y-dM3" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="JaM-IU-i38"/>
+                            <constraint firstItem="TJN-QJ-lDq" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" constant="-150" id="ZIs-gv-yUy"/>
+                            <constraint firstItem="1Ao-4w-a0a" firstAttribute="top" secondItem="CW4-3y-dM3" secondAttribute="bottom" constant="15" id="ZpR-W6-7Jh"/>
+                            <constraint firstItem="nqW-S4-CxG" firstAttribute="centerX" secondItem="TJN-QJ-lDq" secondAttribute="centerX" id="eQ3-6i-sXb"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -28,4 +57,7 @@
             <point key="canvasLocation" x="53" y="375"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="logoicon" width="96" height="96"/>
+    </resources>
 </document>
