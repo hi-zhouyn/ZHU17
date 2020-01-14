@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		50052E5223CC740200648FD8 /* ZHModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50052E5123CC740200648FD8 /* ZHModel.swift */; };
 		50C0DFCF23C57CFE00BBE6A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50C0DFCD23C57CFE00BBE6A8 /* Main.storyboard */; };
 		50C0DFD123C57D0000BBE6A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50C0DFD023C57D0000BBE6A8 /* Assets.xcassets */; };
 		50C0DFD423C57D0000BBE6A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50C0DFD223C57D0000BBE6A8 /* LaunchScreen.storyboard */; };
@@ -117,6 +118,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		50052E5123CC740200648FD8 /* ZHModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZHModel.swift; sourceTree = "<group>"; };
 		50C0DFC623C57CFE00BBE6A8 /* ZHU17.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZHU17.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50C0DFCE23C57CFE00BBE6A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		50C0DFD023C57D0000BBE6A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -360,6 +362,7 @@
 		50C0DFFD23C6CF3000BBE6A8 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				50052E5123CC740200648FD8 /* ZHModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -830,6 +833,7 @@
 				50C0E06A23C6F99C00BBE6A8 /* LocaleExtensions.swift in Sources */,
 				50C0E09723C6F99C00BBE6A8 /* SequenceExtensions.swift in Sources */,
 				50C0E06323C6F99C00BBE6A8 /* NSPredicateExtensions.swift in Sources */,
+				50052E5223CC740200648FD8 /* ZHModel.swift in Sources */,
 				50C0E00E23C6D4A400BBE6A8 /* CateViewController.swift in Sources */,
 				50C0E07323C6F99C00BBE6A8 /* UILayoutPriorityExtensions.swift in Sources */,
 				50C0E0B123C7041300BBE6A8 /* SGPageContentScrollView.swift in Sources */,
